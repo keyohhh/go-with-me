@@ -81,7 +81,7 @@ func (h *HashMap) set(key string, value string) {
 			return
 		}
 	}
-	panic("Hashmap is full!")
+	panic("Hashmap is full")
 }
 
 func (h *HashMap) get(key string) (interface{}, error) {
